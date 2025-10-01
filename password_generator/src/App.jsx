@@ -34,6 +34,8 @@ function App() {
     generatePassword()
   }, [generatePassword])
 
+  //use effect tab use krty jab hum ne koi functionality perform krni ho jb component render ho ya state change ho
+  //like hum jab aik fucntion call kry to jasiy wo function call ho os k andr kuch functionality perform ho sab se pehly
   useEffect(() => {
     handleGeneratePassword()
   }, [handleGeneratePassword])
